@@ -55,6 +55,7 @@ namespace ceng211_oop_hw4
         {
             File.Delete(path);
             listBox1.Items.Clear();
+            textBox1.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)
